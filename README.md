@@ -80,6 +80,4 @@ SOFTWARE.
 
 ### Get jQuery.jBreadCrumb 1.1
 
-You can download the files necessary to use the plugin here
-
-**[Download jBreadCrumb Plugin](jBreadCrumb_1.1.zip)**
+You can download the files necessary to use the plugin above
