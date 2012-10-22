@@ -119,13 +119,13 @@
                 jQuery(listElement).find('a').wrap('<span></span>').width(jQuery(listElement).find('a').width() + 10);
                 
                 // Add the overlay png.
-                jQuery(listElement).append(jQuery('<div class="' + _options.overlayClass + '"></div>').css(
-                {
-                    display: 'block'
-                })).css(
-                {
-                    background: 'none'
-                });
+                // jQuery(listElement).append(jQuery('<div class="' + _options.overlayClass + '"></div>').css(
+                // {
+                    // display: 'block'
+                // })).css(
+                // {
+                    // background: 'none'
+                // });
                 if (isIE6OrLess()) 
                 {
                     fixPNG(jQuery(listElement).find('.' + _options.overlayClass).css(
@@ -234,7 +234,7 @@
         timeInitialCollapse: 600,
         easing: _easingEquation,
         overlayClass: 'chevronOverlay',
-        previewWidth: 5
+        previewWidth: 30
     };
     
 })(jQuery);

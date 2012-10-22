@@ -58,6 +58,7 @@
 	padding: 0px 10px 0px 0;
 	font-size: .9167em;
 	background: url(../Images/Chevron.gif) no-repeat 100% 0;
+	min-width: 30px;
 }
 .breadCrumb ul li div.chevronOverlay
 {
@@ -70,6 +71,13 @@
 {
 	display: block;
 	overflow: hidden;
+	overflow: hidden;
+	vertical-align: middle;
+	-webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(1%,rgba(255,255,255,0.99)), color-stop(100%,rgba(255,255,255,0.01)));
+}
+.breadCrumb ul li span:hover
+{
+	-webkit-mask-image:none;
 }
 .breadCrumb ul li a
 {
