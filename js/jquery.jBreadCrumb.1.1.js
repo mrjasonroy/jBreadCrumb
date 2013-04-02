@@ -196,7 +196,12 @@
     function isIE6OrLess()
     {
         var isIE6 = (navigator.userAgent.match(/msie [6]/i));
-        return isIE6;
+        if (isIE6 === null){
+            return false;
+        }
+        else {
+            return true;
+        }
     };
     // Fix The Overlay for IE6
     function fixPNG(element)
