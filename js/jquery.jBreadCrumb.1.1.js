@@ -195,7 +195,7 @@
     
     function isIE6OrLess()
     {
-        var isIE6 = $.browser.msie && /MSIE\s(5\.5|6\.)/.test(navigator.userAgent);
+        var isIE6 = (navigator.userAgent.match(/msie [6]/i));
         return isIE6;
     };
     // Fix The Overlay for IE6
